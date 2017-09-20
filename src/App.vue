@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="logo.png">
+    <img :src='logo'>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -20,11 +20,14 @@
 </template>
 
 <script>
+import logo from '../src/assets/logo.png'
+
 export default {
   name: 'app',
   data: () => {
     return {
-      msg: 'Welcome to my view Vue JS'
+      msg: 'Welcome to my view Vue JS',
+      logo: logo
     }
   }
 }
