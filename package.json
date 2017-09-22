@@ -10,6 +10,7 @@
     "rebuild-dev": "npm run clean && npm run build-dev"
   },
   "devDependencies": {
+    "@luffysan/easy-emitter": "^1.0.0",
     "babel-core": "^6.0.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.5.1",
